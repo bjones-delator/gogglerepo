@@ -1,9 +1,16 @@
 ! name: No Government Sites
 ! description: Filters out .gov domains from Brave Search results
 ! public: true
-! author: Your Name
+! author: bjones
 
 $discard,site=justice.gov
 $discard,site=hhs.gov
 $discard,site=fbi.gov
+$discard,site=dhs.gov
+$discard,site=*.gov
+$discard,site=whitehouse.gov
+$discard,site=senate.gov
+$discard,site=house.gov
+$discard,site=state.gov
+$discard,site=treasury.gov
 
