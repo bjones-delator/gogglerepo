@@ -3,4 +3,7 @@
 ! public: true
 ! author: Your Name
 
-$discard,site=.gov
+$discard,site=justice.gov
+$discard,site=hhs.gov
+$discard,site=fbi.gov
+
