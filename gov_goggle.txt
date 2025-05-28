@@ -7,8 +7,3 @@ $discard,site=justice.gov
 $discard,site=hhs.gov
 $discard,site=fbi.gov
 $discard,site=dhs.gov
-$discard,site=senate.gov
-$discard,site=house.gov
-$discard,site=state.gov
-$discard,site=treasury.gov
-
