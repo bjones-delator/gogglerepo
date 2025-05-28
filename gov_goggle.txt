@@ -1,0 +1,6 @@
+! name: No Government Sites
+! description: Filters out .gov domains from Brave Search results
+! public: true
+! author: Your Name
+
+$discard,site=.gov
