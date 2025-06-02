@@ -1,4 +1,4 @@
-! name: No Government Sites
+! name: No Government Sites and downweight most popular news sites
 ! description: Filters out .gov domains from Brave Search results
 ! public: true
 ! author: bjones
@@ -25,4 +25,10 @@ $downrank=3,site=usatoday.com
 $downrank=3,site=bbc.com
 $downrank=3,site=reuters.com
 $downrank=3,site=apnews.com
+$downrank=3,site=cnbc.com
+$downrank=3,site=msnbc.com
+$downrank=3,site=finance.yahoo.com
+$downrank=3,site=forbes.com
+$downrank=3,site=cbsnews.com
+$downrank=3,site=newsweek.com
 
