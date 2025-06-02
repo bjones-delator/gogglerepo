@@ -15,12 +15,6 @@ $discard,site=treasury.gov
 $discard,site=cftc.gov
 $discard,site=sec.gov
 $discard,site=doi.gov
-
-! name: Downweight Major News Sites
-! description: Reduces ranking of major national news sources in search results
-! public: true
-! author: Your Name
-
 $downrank=3,site=foxnews.com
 $downrank=3,site=nytimes.com
 $downrank=3,site=wsj.com
